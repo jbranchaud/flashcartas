@@ -1,0 +1,33 @@
+body {
+    padding: 10px;
+    background: #EEE;
+}
+header {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-bottom: 1px #EEE solid;
+}
+header h1 {
+    margin: 0.21em 0;
+}
+header h1 small {
+    color: #AAA;
+}
+div#container {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    background: #FFF;
+}
+div#card-container {
+    font-size: 3.2em;
+}
+p.card {
+    padding: 50px;
+    margin: 0 auto;
+    width: intrinsic;
+    width: -moz-max-content;
+    background: #AFCADE;
+    border: 5px solid #657C8E;
+}
