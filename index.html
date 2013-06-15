@@ -28,8 +28,10 @@
         <div id="content">
 
             <div id="card-container">
-                <p class="card" data-bind="text: cardWord"></p>
+                <p class="card" data-bind="text: cardWord, click: toggleCardWord"></p>
             </div>
+
+            <p id="nextButton" data-bind="click: nextWord">Next Word</p>
 
         </div>
 

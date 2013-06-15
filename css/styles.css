@@ -26,8 +26,19 @@ div#card-container {
 p.card {
     padding: 50px;
     margin: 0 auto;
+    margin-bottom: 10px;
     width: intrinsic;
     width: -moz-max-content;
     background: #AFCADE;
     border: 5px solid #657C8E;
+    cursor: default;
+}
+p#nextButton {
+    padding: 10px;
+    margin: 0 auto;
+    width: intrinsic;
+    width: -moz-max-content;
+    background: #EEE;
+    border: 1px solid #AAA;
+    cursor: default;
 }
