@@ -1,12 +1,9 @@
-flashcards = [
-    {english: "to attain", spanish: "conseguir"},
-    {english: "to eat", spanish: "comer"},
-    {english: "to see", spanish: "ver"}
-]
+var vocab = new spanishVocab();
+var vocabList = vocab.verbs;
 
 function getRandomWord() {
-    var index = getRandomInt(0, flashcards.length - 1);
-    return flashcards[index];
+    var index = getRandomInt(0, vocabList.length - 1);
+    return vocabList[index];
 }
 
 function getRandomInt (min, max) {
@@ -16,21 +13,21 @@ function getRandomInt (min, max) {
 function AppViewModel() {
     var currWord = getRandomWord();
     var isSpanish = true;
-    this.cardWord = ko.observable(currWord.spanish);
+    this.cardWord = ko.observable(currWord.spanish());
     this.toggleCardWord = function() {
         if(isSpanish) {
-            this.cardWord(currWord.english);
+            this.cardWord(currWord.english());
             isSpanish = false;
         }
         else {
-            this.cardWord(currWord.spanish);
+            this.cardWord(currWord.spanish());
             isSpanish = true;
         }
     }
     this.nextWord = function() {
         currWord = getRandomWord();
         isSpanish = true;
-        this.cardWord(currWord.spanish);
+        this.cardWord(currWord.spanish());
     }
 }
 
