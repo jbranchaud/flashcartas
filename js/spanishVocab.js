@@ -18,8 +18,8 @@ spanishWordPair.prototype.spanish = function() {
 var spanishVocab = function(){};
 
 spanishVocab.prototype.phrases = [
-    new wordPair("hello", "hola"),
-    new wordPair("goodbye", "adios")
+    new spanishWordPair("hello", "hola"),
+    new spanishWordPair("goodbye", "adios")
 ];
 
 spanishVocab.prototype.verbs = [
