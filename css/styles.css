@@ -31,7 +31,7 @@ p.card {
     width: -moz-max-content;
     background: #AFCADE;
     border: 5px solid #657C8E;
-    cursor: default;
+    cursor: pointer;
 }
 p#nextButton {
     padding: 10px;
@@ -40,5 +40,5 @@ p#nextButton {
     width: -moz-max-content;
     background: #EEE;
     border: 1px solid #AAA;
-    cursor: default;
+    cursor: pointer;
 }
