@@ -42,3 +42,17 @@ p#nextButton {
     border: 1px solid #AAA;
     cursor: pointer;
 }
+div#nav {
+    float: right;
+}
+div#nav ul li {
+    display: inline;
+    padding-right: 10px;
+}
+div#nav ul li a {
+    text-decoration: none;
+    color: #657C8E;
+}
+div#nav ul li a:hover {
+    color: #AFCADE;
+}
