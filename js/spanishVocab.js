@@ -25,5 +25,9 @@ spanishVocab.prototype.phrases = [
 spanishVocab.prototype.verbs = [
     new spanishWordPair("to see", "ver"),
     new spanishWordPair("to eat", "comer"),
-    new spanishWordPair("to attain", "conseguir")
+    new spanishWordPair("to attain", "conseguir"),
+    new SpanishWordPair("to cook", "cocinar"),
+    new SpanishWordPair("to be", "ser/estar"),
+    new SpanishWordPair("to read", "leer"),
+    new SpanishWordPair("to write", "escribir")
 ];
