@@ -30,5 +30,8 @@ spanishVocab.prototype.verbs = [
     new SpanishWordPair("to be", "ser/estar"),
     new SpanishWordPair("to read", "leer"),
     new SpanishWordPair("to write", "escribir"),
-    new SpanishWordPair("to walk", "caminar")
+    new SpanishWordPair("to walk", "caminar"),
+    new SpanishWordPair("to swim", "nadar"),
+    new SpanishWordPair("to have", "tener"),
+    new SpanishWordPair("to sleep", "dormir")
 ];
