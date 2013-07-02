@@ -33,5 +33,9 @@ spanishVocab.prototype.verbs = [
     new SpanishWordPair("to walk", "caminar"),
     new SpanishWordPair("to swim", "nadar"),
     new SpanishWordPair("to have", "tener"),
-    new SpanishWordPair("to sleep", "dormir")
+    new SpanishWordPair("to sleep", "dormir"),
+    new SpanishWordPair("to run", "correr"),
+    new SpanishWordPair("to pay", "pagar"),
+    new SpanishWordPair("to want", "querer"),
+    new SpanishWordPair("to speak", "hablar")
 ];
